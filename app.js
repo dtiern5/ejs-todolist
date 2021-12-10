@@ -8,7 +8,7 @@ app.use(express.urlencoded({
   extended: true
 }));
 app.use(express.static("public"));
-mongoose.connect("mongodb://localhost:27017/todolistDB");
+mongoose.connect("mongodb+srv://admin:admin@cluster0.g7ayw.mongodb.net/todolistDB");
 
 const itemsSchema = {
   name: String
