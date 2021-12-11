@@ -1,6 +1,6 @@
 html {
   background-color: #2C394B;
-  background: url("/images/yellow-background.jpg");
+  background: url("/images/grey-background.jpg");
   min-height: 1440px;
   font-family: 'helvetica neue';
 }
@@ -19,7 +19,7 @@ h1 {
 }
 
 #heading {
-  background-color: #334756;
+  background-color: #082032;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #082032;
+  border-bottom: 1px solid #000;
 }
 
 .item:last-child {
@@ -36,7 +36,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #2C394B;
+  text-decoration-color: #082032;
 }
 
 input[type="checkbox"] {
@@ -48,7 +48,7 @@ p {
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
-  color: #082032;
+  color: #334756;
 }
 
 form.item{
@@ -61,7 +61,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #334756;
+  background-color: #082032;
   color: #fff;
   font-size: 30px;
   padding: 6px;
@@ -81,16 +81,16 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #2C394B;
+  box-shadow: inset 0 -3px 0 0 #334756;
 }
 
 ::placeholder {
-  color: #334756;
+  color: LightGray;
   opacity: 1;
 }
 
 footer {
-  color: #2C394B;
+  color: #fff;
 
   text-align: center;
 }
