@@ -1,6 +1,7 @@
 html {
   background-color: #2C394B;
   background: url("/images/grey-background.jpg");
+  background-size: cover;
   min-height: 1440px;
   font-family: 'helvetica neue';
 }
