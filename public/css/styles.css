@@ -1,8 +1,15 @@
 html {
   background-color: #2C394B;
   background: url("/images/grey-background.jpg");
+  background-repeat: no repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  min-height: 1440px;
+  height: 100%;
+  width: 100%;
   font-family: 'helvetica neue';
 }
 
@@ -52,7 +59,7 @@ p {
   color: #334756;
 }
 
-form.item{
+form.item {
   text-align: center;
   margin-left: 20px;
 }
@@ -92,6 +99,5 @@ input[type="text"]:focus {
 
 footer {
   color: #fff;
-
   text-align: center;
 }
